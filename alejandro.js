@@ -1,3 +1,5 @@
 export function alejandro() {
-    console.log("Alejandro is working!");
+    const ruleta = ["Totoro", "Rio", "Coco", "Luca", "Soul", "Encanto", "Raya", "Moana", "Frozen", "Zootopia"];
+    const index = Math.floor(Math.random() * ruleta.length);
+    console.log("Alejandro always rewatch " + ruleta[index]);
 }

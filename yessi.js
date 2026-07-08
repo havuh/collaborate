@@ -1,3 +1,3 @@
 export function yessi() {
-    console.log("Yessi is working never!");
+    console.log("Yessi never is working!");
 }
